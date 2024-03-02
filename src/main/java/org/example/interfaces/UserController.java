@@ -1,4 +1,4 @@
-package org.example.interfaces.controller;
+package org.example.interfaces;
 
 import java.util.UUID;
 

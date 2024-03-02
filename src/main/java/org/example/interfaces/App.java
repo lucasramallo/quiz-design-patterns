@@ -21,5 +21,6 @@ public interface App {
     void calcularProgresso(int numeroDeTrilhas, int trilhasFinalizadas);
     int verificarProgresso();
     boolean verificarResposta(Pergunta pergunta, int indexResposta);
-
 }
+
+// User, Trail, Question, Content, Login, Password, Progress, Auth

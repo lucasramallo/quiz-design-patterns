@@ -4,5 +4,4 @@ import java.util.UUID;
 
 public interface IQuestion {
     public UUID getID();
-    public int getAnswer();
 }

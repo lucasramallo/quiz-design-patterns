@@ -1,9 +1,6 @@
 package org.example.domain;
-
 import org.example.interfaces.IQuestion;
-
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.UUID;
 
 public class Question implements IQuestion {
@@ -11,9 +8,10 @@ public class Question implements IQuestion {
     private String description;
 
     private ArrayList<Alternative> alternatives;
-    public Question(String answer, String description) {
+    public Question(String description, ArrayList<Alternative> alternatives) {
         this.questionId = UUID.randomUUID();
         this.description = description;
+        this.alternatives = alternatives;
     }
 
     public String getDescription() {

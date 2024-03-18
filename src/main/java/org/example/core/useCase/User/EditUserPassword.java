@@ -6,16 +6,17 @@ import org.example.core.repository.IUserRepository;
 import java.util.UUID;
 
 public class EditUserPassword {
-
     private IUserRepository repository;
+
     public EditUserPassword(IUserRepository repository) {
         this.repository = repository;
     }
 
-    public void execute(UUID id, String newPassword){
+    public void execute(UUID id, String newPassword) {
         User user = repository.findUserById(id);
-        user.setPassword(newPassword);
-        repository.update(user);
+        if(user != null) {
+            user.setPassword(newPassword);
+            repository.update(user);
+        }
     }
-
 }

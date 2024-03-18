@@ -1,5 +1,4 @@
 package org.example.core.useCase;
 
-public class CreatQuestion {
-    
+public class AddAlternativeUseCase {
 }

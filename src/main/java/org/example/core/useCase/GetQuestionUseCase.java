@@ -1,5 +1,5 @@
 package org.example.core.useCase;
 
-public class EditDescription {
+public class GetQuestionCase {
     
 }

@@ -1,5 +1,5 @@
 package org.example.core.useCase;
 
-public class DeleteQuestion {
+public class DeleteQuestionUseCase {
     
 }

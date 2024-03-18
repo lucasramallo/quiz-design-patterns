@@ -1,10 +1,14 @@
 package org.example.core.domain;
 
+import java.util.UUID;
+
 public class Alternative {
+    private final UUID id;
     private String content;
     private boolean isCorrect;
 
     public Alternative(String content, boolean isCorrect) {
+        this.id = UUID.randomUUID();
         this.content = content;
         this.isCorrect = isCorrect;
     }

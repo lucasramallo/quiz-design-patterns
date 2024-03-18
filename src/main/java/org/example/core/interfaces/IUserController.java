@@ -1,5 +1,5 @@
-package org.example.interfaces;
-import org.example.domain.User;
+package org.example.core.interfaces;
+import org.example.core.domain.User;
 import java.util.UUID;
 
 public interface IUserController {

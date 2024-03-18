@@ -25,7 +25,7 @@ public class Progress implements IProgress {
     }
 
     @Override
-    public void upSolvedTrails(int newProgress) {
-        this.solvedTrails += 1;
+    public void setSolvedTrails(int newProgress) {
+        this.solvedTrails = newProgress;
     }
 }

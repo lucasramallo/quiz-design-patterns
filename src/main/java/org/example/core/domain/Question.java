@@ -1,12 +1,6 @@
-<<<<<<< HEAD:src/main/java/org/example/core/domain/Question.java
 package org.example.core.domain;
 
 import org.example.core.interfaces.IQuestion;
-
-=======
-package org.example.domain;
-import org.example.interfaces.IQuestion;
->>>>>>> ac4c8da4d417946ba4001d93000c55da1396d882:src/main/java/org/example/domain/Question.java
 import java.util.ArrayList;
 import java.util.UUID;
 

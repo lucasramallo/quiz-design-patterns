@@ -1,12 +1,6 @@
-<<<<<<< HEAD:src/main/java/org/example/core/domain/User.java
 package org.example.core.domain;
 
 import org.example.core.interfaces.IProgress;
-
-=======
-package org.example.domain;
-import org.example.interfaces.IProgress;
->>>>>>> ac4c8da4d417946ba4001d93000c55da1396d882:src/main/java/org/example/domain/User.java
 import java.util.UUID;
 
 public class User {

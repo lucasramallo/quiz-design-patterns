@@ -1,4 +1,4 @@
-package org.example.interfaces;
+package org.example.core.interfaces;
 
 import org.example.domain.Alternative;
 import org.example.domain.Question;

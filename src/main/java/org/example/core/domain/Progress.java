@@ -1,6 +1,6 @@
-package org.example.domain;
+package org.example.core.domain;
 
-import org.example.interfaces.IProgress;
+import org.example.core.interfaces.IProgress;
 
 public class Progress implements IProgress {
     private int totalTrails;

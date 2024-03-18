@@ -1,4 +1,4 @@
-package org.example.interfaces;
+package org.example.core.interfaces;
 
 public interface IProgress {
     public int getProgress();

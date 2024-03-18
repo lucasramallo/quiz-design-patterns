@@ -1,4 +1,4 @@
-package org.example.domain;
+package org.example.core.domain;
 
 public class Alternative {
     private String content;

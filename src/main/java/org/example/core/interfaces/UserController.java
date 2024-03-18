@@ -1,4 +1,4 @@
-package org.example.interfaces;
+package org.example.core.interfaces;
 
 import java.util.UUID;
 

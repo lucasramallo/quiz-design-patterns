@@ -1,6 +1,6 @@
-package org.example.domain;
+package org.example.core.domain;
 
-import org.example.interfaces.IQuestion;
+import org.example.core.interfaces.IQuestion;
 
 import java.util.ArrayList;
 import java.util.UUID;

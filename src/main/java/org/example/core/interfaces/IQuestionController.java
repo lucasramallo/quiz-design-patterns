@@ -13,7 +13,6 @@ public interface IQuestionController {
     public void editDescription(UUID id, String newDescription);
     public void addAlternative(String content, boolean isCorrect);
     public void deleteAlternative(UUID id);
-    public ArrayList<Alternative> getAlternatives();
     public Question getQuestion(UUID id);
     public ArrayList<Question> getQuestions();
 }

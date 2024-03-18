@@ -3,12 +3,12 @@ package org.example.core.domain;
 import java.util.UUID;
 
 public class Alternative {
-    private final UUID id;
+    private final UUID alternativeId;
     private String content;
     private boolean isCorrect;
 
     public Alternative(String content, boolean isCorrect) {
-        this.id = UUID.randomUUID();
+        this.alternativeId = UUID.randomUUID();
         this.content = content;
         this.isCorrect = isCorrect;
     }
@@ -27,7 +27,5 @@ public class Alternative {
     public void setCorrect(boolean correct) {
         isCorrect = correct;
     }
-
-
 
 }

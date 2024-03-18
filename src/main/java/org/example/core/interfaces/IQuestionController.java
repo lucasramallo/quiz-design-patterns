@@ -1,7 +1,7 @@
 package org.example.core.interfaces;
 
-import org.example.domain.Alternative;
-import org.example.domain.Question;
+import org.example.core.domain.Alternative;
+import org.example.core.domain.Question;
 
 import java.util.ArrayList;
 import java.util.UUID;

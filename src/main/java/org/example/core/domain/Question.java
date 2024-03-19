@@ -7,8 +7,8 @@ import java.util.UUID;
 public class Question implements IQuestion {
     private final UUID questionId;
     private String description;
-
     private ArrayList<Alternative> alternatives;
+
     public Question(String description, ArrayList<Alternative> alternatives) {
         this.questionId = UUID.randomUUID();
         this.description = description;

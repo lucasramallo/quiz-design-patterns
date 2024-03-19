@@ -27,7 +27,4 @@ public class Alternative {
     public void setCorrect(boolean correct) {
         isCorrect = correct;
     }
-
-
-
 }

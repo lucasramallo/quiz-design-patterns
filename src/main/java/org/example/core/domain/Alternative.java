@@ -28,4 +28,7 @@ public class Alternative {
         isCorrect = correct;
     }
 
+    public UUID getAlternativeId() {
+        return alternativeId;
+    }
 }

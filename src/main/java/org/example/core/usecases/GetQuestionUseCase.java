@@ -1,4 +1,4 @@
-package org.example.core.useCase;
+package org.example.core.usecases;
 
 public class GetQuestionCase {
     

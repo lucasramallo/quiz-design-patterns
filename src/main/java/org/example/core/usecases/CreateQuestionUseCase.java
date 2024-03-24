@@ -2,6 +2,7 @@ package org.example.core.usecases;
 
 import org.example.core.domain.Trail;
 import org.example.core.domain.Alternative;
+import org.example.core.domain.Question;
 import org.example.core.interfaces.IQuestion;
 import org.example.core.repository.QuestionRepository;
 

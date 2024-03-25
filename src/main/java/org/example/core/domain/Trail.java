@@ -5,6 +5,7 @@ import org.example.core.interfaces.IQuestion;
 import java.util.ArrayList;
 import java.util.UUID;
 
+// SOLID (S)
 public class Trail {
     private final UUID id;
     private String title;

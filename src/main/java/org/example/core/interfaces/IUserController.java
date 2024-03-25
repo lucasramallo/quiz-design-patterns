@@ -2,6 +2,7 @@ package org.example.core.interfaces;
 import org.example.core.domain.User;
 import java.util.UUID;
 
+// SOLID (I)
 public interface IUserController {
     public void changePassword(String novaSenha);
     public void changeLogin(String novoLogin);

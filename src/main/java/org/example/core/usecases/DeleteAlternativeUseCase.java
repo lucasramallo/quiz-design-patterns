@@ -11,6 +11,7 @@ public class DeleteAlternativeUseCase {
     private Trail trail;
     private QuestionRepository questionRepository;
 
+    // SOLID (D)
     public DeleteAlternativeUseCase(Trail trail, QuestionRepository questionRepository) {
         this.trail = trail;
         this.questionRepository = questionRepository;

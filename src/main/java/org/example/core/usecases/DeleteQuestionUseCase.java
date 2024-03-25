@@ -10,6 +10,7 @@ public class DeleteQuestionUseCase {
     private Trail trail;
     private QuestionRepository questionRepository;
 
+    // SOLID (D)
     public DeleteQuestionUseCase(Trail trail, QuestionRepository questionRepository) {
         this.trail = trail;
         this.questionRepository = questionRepository;

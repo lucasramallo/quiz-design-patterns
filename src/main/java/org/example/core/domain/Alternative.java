@@ -2,6 +2,7 @@ package org.example.core.domain;
 
 import java.util.UUID;
 
+// SOLID (S)
 public class Alternative {
     private final UUID alternativeId;
     private String content;

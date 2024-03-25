@@ -2,6 +2,7 @@ package org.example.core.domain;
 
 import org.example.core.interfaces.IProgress;
 
+// SOLID (S)
 public class Progress implements IProgress {
     private int totalTrails;
     private int solvedTrails;

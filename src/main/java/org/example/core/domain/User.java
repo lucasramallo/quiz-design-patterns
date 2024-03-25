@@ -4,6 +4,7 @@ import org.example.core.interfaces.IProgress;
 
 import java.util.UUID;
 
+// SOLID (S)
 public class User {
     public final UUID userId;
     private String userName;

@@ -10,6 +10,7 @@ public class EditDescriptionUseCase {
     private Trail trail;
     private QuestionRepository questionRepository;
 
+    // SOLID (D)
     public EditDescriptionUseCase(Trail trail, QuestionRepository questionRepository) {
         this.trail = trail;
         this.questionRepository = questionRepository;

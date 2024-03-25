@@ -11,6 +11,7 @@ public class AddAlternativeUseCase {
     private Trail trail;
     private QuestionRepository questionRepository;
 
+    // SOLID (D)
     public AddAlternativeUseCase(Trail trail, QuestionRepository questionRepository) {
         this.trail = trail;
         this.questionRepository = questionRepository;

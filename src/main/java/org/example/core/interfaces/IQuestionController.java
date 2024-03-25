@@ -14,5 +14,4 @@ public interface IQuestionController {
     public void addAlternative(String content, boolean isCorrect);
     public void deleteAlternative(UUID id);
     public Question getQuestion(UUID id);
-    public ArrayList<Question> getQuestions();
 }

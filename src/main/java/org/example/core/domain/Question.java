@@ -5,6 +5,7 @@ import org.example.core.interfaces.IQuestion;
 import java.util.ArrayList;
 import java.util.UUID;
 
+// SOLID (S)
 public class Question implements IQuestion {
     private final UUID questionId;
     private String description;    
